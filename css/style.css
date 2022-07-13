@@ -98,7 +98,8 @@ body{
     margin-bottom: 3rem;
 }
 
-@media (max-width: 64rem) {
+/*El ejercicio usa (max-width: 64rem)*/
+@media (max-width: 36rem) {
     .logo{
         display: block;
     }
