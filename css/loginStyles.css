@@ -108,21 +108,22 @@ body{
     margin-bottom: 3rem;
 }
 
-/*El ejercicio usa (max-width: 64rem)*/
-@media (max-width: 36rem) {
-    .logo{
-        display: block;
-    }
+.secondary-button .signup-button{
+    margin-top: 20rem;
+    width: 30rem;
+}
 
-@media (max-width: 60rem) {
+/*El ejercicio usa (max-width: 640px)*/
+@media (max-width: 360px) {
     .logo{
         display: block;
     }
 
     .secondary-button{
-        margin-top: 15rem;
-    }
-
-}
+        position: absolute;
+        width: 30rem;
+        bottom: 0;
+        margin-bottom: 2.4rem;
+    }            
 
 }
