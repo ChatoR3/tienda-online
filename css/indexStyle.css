@@ -1,0 +1,59 @@
+:root{
+    --very-ligth-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    /*1 rem = 10px*/
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+     /*Usando esto 1 rem = 10px*/
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,24rem);
+}
+
+.product-card{
+    width: 24rem;
+}
+
+.product-card img{
+    width: 24rem;
+    height: 24rem;
+    border-radius: 2rem;
+    /*Objet Fit: cover, ajusta la imagen al tamaño del contenedor sin distorcionarlo */
+    object-fit: cover;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info figure{
+    margin: 0;
+}
+
+.product-card figure img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
